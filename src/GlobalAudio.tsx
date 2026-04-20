@@ -72,7 +72,7 @@ const GlobalAudio: React.FC = () => {
       {/* Hidden audio element */}
       <audio
         ref={audioRef}
-        src="/music/music.mp3"
+        src={`${import.meta.env.BASE_URL}music/music.mp3`}
         loop
         muted={isMuted}
         style={{ display: "none" }}

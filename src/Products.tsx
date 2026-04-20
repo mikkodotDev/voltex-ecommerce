@@ -45,7 +45,7 @@ const Products: React.FC<ProductsProps> = ({ setCartCount }) => {
   const products: Product[] = [
     {
       id: 1,
-      img: "/src/assets/images/smartphone-placeholder.png",
+      img: `${import.meta.env.BASE_URL}images/smartphone-placeholder.png`,
       label: "SMARTPHONE",
       badge: "NEW",
       cat: "Smartphones",
@@ -56,7 +56,7 @@ const Products: React.FC<ProductsProps> = ({ setCartCount }) => {
     },
     {
       id: 2,
-      img: "/src/assets/images/headphone-placeholder.png",
+      img: `${import.meta.env.BASE_URL}images/headphone-placeholder.png`,
       label: "AUDIO",
       badge: "SALE",
       cat: "Audio",
@@ -67,7 +67,7 @@ const Products: React.FC<ProductsProps> = ({ setCartCount }) => {
     },
     {
       id: 3,
-      img: "/src/assets/images/laptop-placeholder.png",
+      img: `${import.meta.env.BASE_URL}images/laptop-placeholder.png`,
       label: "LAPTOP",
       badge: null,
       cat: "Laptops",
@@ -78,7 +78,7 @@ const Products: React.FC<ProductsProps> = ({ setCartCount }) => {
     },
     {
       id: 4,
-      img: "/src/assets/images/smartwatch-placeholder.png",
+      img: `${import.meta.env.BASE_URL}images/smartwatch-placeholder.png`,
       label: "WEARABLE",
       badge: "HOT",
       cat: "Wearables",

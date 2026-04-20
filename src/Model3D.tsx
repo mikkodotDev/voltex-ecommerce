@@ -55,7 +55,7 @@ const Model3DViewer: React.FC = () => {
 
       {/* Model with Suspense */}
       <Suspense fallback={<LoaderFallback />}>
-        <Model url="/models/scene.gltf" />
+        <Model url={`${import.meta.env.BASE_URL}models/scene.gltf`} />
       </Suspense>
 
       {/* OrbitControls */}
